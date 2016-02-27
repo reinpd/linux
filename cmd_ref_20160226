@@ -1,0 +1,27 @@
+$ sudo find . -name motd        search for file by name
+$ df -T                         report file system disk space usage, adding -h works for this command
+$ ps -e                         list all running processes
+$ cd ~                          take me home
+$ df -h                         list free disk space in MB
+$ mkdir dir_name                create a new directory
+$ du -s * | sort -nr
+$ cp /dir/filename		copy filename to home folder
+$ mv file-name new-file-name	rename a file, this is actually the move command.
+$ uname -a			list system information
+$ free				list free memory
+$ ls -al | sort			list and sort output
+$ factor somenum		factor a number
+$ cat /etc/*release		show complete version of OS
+$ ls /usr/bin/*session		show what desktop enviornment is running
+
+$ sudo useradd uname		add user does not create /home/uname, terminal opens in root dir
+$ sudo passwd uname		set password
+$ groups <username>		list all groups username is a member of
+$ sudo adduser user group	Add a user to a group
+
+
+
+$ w				list all open user connections
+$ uname -a			list system os information
+
+$ sudo wall text_file		broadcast message to all terminals
